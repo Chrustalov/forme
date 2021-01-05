@@ -220,6 +220,63 @@ color:#fff;
 }
 
 
+ /* about us */
+
+
+
+
+.row{
+padding:0 !important;
+margin:0 auto !important;
+ width:100%;
+ max-width:1070px;
+
+justify-content:space-between;
+text-align:center;
+}
+
+.abus{
+	padding:0  !important;
+margin:0 !important;
+width:270px;
+height:237px;
+justify-content:center;
+text-align:center;
+}
+
+.about__title{
+font-size:20px;
+font-weight:600;
+color:#212121;
+line-height:1.1;
+letter-spacing:1.2px;
+
+margin-bottom:16.6px;
+}
+
+.about__title1{
+margin-top:36px;
+}
+
+.about__title2{
+margin-top:29px;
+}
+
+.about__title3{
+margin-top:36px;
+}
+
+.about__text{
+font-size:15px;
+font-weight:400;
+color:#212121;
+line-height:1.46;
+letter-spacing:0.7px;
+}
+
+
+
+
 
 
 
