@@ -192,12 +192,18 @@ color:#fff;
  	padding:116px 0 92px;
  }
 
+ .section--cards{
+ 	padding:164px 0 126px;
+ 	background-color:#E4FDF9;
+ }
+
  .section__header{
  width:100%;
  max-width:640px;
  margin:0 auto;
 
  text-align:center;
+ height:134px;
  }
 
 
@@ -215,15 +221,15 @@ color:#fff;
 	font-weight:400;
 	color:#212121;
 	line-height:1.46;
-
-	margin-bottom:115px;
 }
 
 
  /* about us */
 
 
-
+.about__us{
+margin-top:89px;
+}
 
 .row{
 padding:0 !important;
@@ -275,6 +281,73 @@ letter-spacing:0.7px;
 }
 
 
+/* Cards */
+
+.cards_all{
+display:flex;
+flex-wrap:wrap;
+justify-content:space-between;
+}
+
+.card{
+width:370px;
+height:438px;
+padding:58px 42px 50px;
+text-align:center;
+}
+
+.cards_all > .card{
+margin-bottom:31px;
+}
+
+.card-body{
+padding:0;
+}
+
+.card__img{
+display:block;
+width:56px;
+height:62px;
+
+margin-left: auto;
+    margin-right: auto;
+}
+
+
+.card-title{
+font-size:20px;
+font-weight:600;
+color:#212121;
+line-height:1.1;
+
+margin-top:32px;
+margin-bottom:14px;
+}
+
+
+.card-text{
+font-size:15px;
+font-weight:400;
+color:#212121;
+line-height:1.66;
+text-align:center;
+letter-spacing:1.2px;
+
+margin-bottom:45px;
+}
+
+.btn-read_more{
+padding:14px 13px;
+
+font-size:20px;
+font-weight:600;
+line-height:1.1;
+text-transform:uppercase;
+
+color:#212121;
+border:2px #212121 solid;
+border-radius:0;
+}
 
 
 
